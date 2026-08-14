@@ -1,0 +1,16 @@
+[
+    {
+        "UpdateStageName": "Move to server folder",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceArgs": "cd server"
+    },
+    {
+        "UpdateStageName": "Make server executable",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceArgs": "chmod +x net_battle_server"
+    }
+]
