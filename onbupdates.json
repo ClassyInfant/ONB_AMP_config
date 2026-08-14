@@ -29,20 +29,26 @@
         "UpdateStageName": "Move ezscripts",
         "UpdateStageDescription": "Moves downloaded ezlibs-scripts ",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "MoveFile",
+        "UpdateSource": "Bash",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "./onb/serverfiles/server/scripts/",
-        "UpdateSourceArgs": "./onb/serverfiles/ezlibs-scripts",
+        "UpdateSourceArgs": "mv ./serverfiles/ezlibs-scripts ./serverfiles/server/scripts",
         "SkipOnFailure": true
     },
     {
         "UpdateStageName": "Move ezassets",
         "UpdateStageDescription": "Moves ezassets",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "MoveFile",
+        "UpdateSource": "Bash",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "./onb/serverfiles/server/assets/",
-        "UpdateSourceArgs": "./onb/serverfiles/server/ezlibs-assets",
+        "UpdateSourceArgs": "mv ./serverfiles ez-libs-assets ./serverfiles/server/assets",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Attempt to chmod +x",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceArgs": "chmod +x serverfiles/server/net_battle_server",
         "SkipOnFailure": true
     }
 ]
