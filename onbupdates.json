@@ -13,7 +13,7 @@
         "UpdateSource": "GitRepo",
         "UpdateSourceArch": "x86_64",
         "UpdateSourceData": "https://github.com/Keristero/ezlibs-scripts.git",
-        "UpdateSourceTarget": "/server/scripts/ezlibs-scripts",
+        "UpdateSourceTarget": "server/ezlibs-scripts",
         "SkipOnFailure": true
     },
     {
@@ -21,8 +21,28 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GitRepo",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "https://github.com/Keristero/ezlibs-scripts.git",
-        "UpdateSourceTarget": "/server/assets/ezlibs-assets",
+        "UpdateSourceData": "https://github.com/Keristero/ezlibs-assets.git",
+        "UpdateSourceTarget": "server/ezlibs-assets",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Move ezscripts",
+        "UpdateStageDescription": "Moves downloaded ezlibs-scripts ",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "MoveFile",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceData": "./onb/serverfiles/server/scripts/",
+        "UpdateSourceArgs": "./onb/serverfiles/ezlibs-scripts",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Move ezassets",
+        "UpdateStageDescription": "Moves ezassets",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "MoveFile",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceData": "./onb/serverfiles/server/assets/",
+        "UpdateSourceArgs": "./onb/serverfiles/server/ezlibs-assets",
         "SkipOnFailure": true
     }
 ]
