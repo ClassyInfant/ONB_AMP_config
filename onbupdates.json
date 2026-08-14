@@ -13,6 +13,6 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceArgs": "chmod -x /server/net_battle_server"
+        "UpdateSourceArgs": "chmod -x net_battle_server"
     }
 ]
