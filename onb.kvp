@@ -1,4 +1,4 @@
-Meta.DisplayName=ONB-Test
+Meta.DisplayName=ONB
 Meta.Description=Open Net Battle Server
 Meta.OS=Linux
 Meta.AarchSupport=Unknown
@@ -24,7 +24,7 @@ Meta.NoCommercialUsage=False
 Meta.ConfigVersion=1
 Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
-Meta.AppConfigId=74bd1aac-4c72-485a-b2e1-63f57abfdtst
+Meta.AppConfigId=74bd1aac-4c72-485a-b2e1-63f57abfdonb
 Meta.ImportableExtensions=[]
 Meta.AppIsMultiIPAware=False
 App.DisplayName=ONB
