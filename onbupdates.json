@@ -1,0 +1,11 @@
+[
+    {
+        "UpdateStageName": "Config",
+        "UpdateStageDescription": "Generating initial setup",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GitRepo",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceData": "https://github.com/ClassyInfant/ONB-_CL_Net.git",
+        "UpdateSourceTarget": "serverfiles"
+    }
+]
