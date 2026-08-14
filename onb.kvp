@@ -1,4 +1,4 @@
-Meta.DisplayName=ONB
+Meta.DisplayName=ONB-Test
 Meta.Description=Open Net Battle Server
 Meta.OS=Linux
 Meta.AarchSupport=Unknown
@@ -19,7 +19,7 @@ Meta.ContainerPolicyReason=
 Meta.ExtraSetupStepsURI=
 Meta.Prerequisites=[]
 Meta.ExtraContainerPackages=[]
-Meta.ConfigReleaseState=EarlyWorkInProgress
+Meta.ConfigReleaseState=MinorIssues
 Meta.NoCommercialUsage=False
 Meta.ConfigVersion=1
 Meta.ReleaseNotes=
