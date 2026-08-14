@@ -13,7 +13,7 @@
         "UpdateSource": "GitRepo",
         "UpdateSourceArch": "x86_64",
         "UpdateSourceData": "https://github.com/Keristero/ezlibs-scripts.git",
-        "UpdateSourceTarget": "server/scripts/ezlibs-scripts",
+        "UpdateSourceTarget": "/server/scripts/ezlibs-scripts",
         "SkipOnFailure": true
     },
     {
@@ -22,7 +22,7 @@
         "UpdateSource": "GitRepo",
         "UpdateSourceArch": "x86_64",
         "UpdateSourceData": "https://github.com/Keristero/ezlibs-scripts.git",
-        "UpdateSourceTarget": "server/assets/ezlibs-assets",
+        "UpdateSourceTarget": "/server/assets/ezlibs-assets",
         "SkipOnFailure": true
     }
 ]
