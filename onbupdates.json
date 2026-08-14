@@ -1,11 +1,28 @@
 [
     {
-        "UpdateStageName": "Config",
-        "UpdateStageDescription": "Generating initial setup",
+        "UpdateStageName": "Add Server Files",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GitRepo",
         "UpdateSourceArch": "x86_64",
         "UpdateSourceData": "https://github.com/ClassyInfant/ONB-_CL_Net.git",
         "UpdateSourceTarget": "server"
+    },
+    {
+        "UpdateStageName": "Add ezscripts",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GitRepo",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceData": "https://github.com/Keristero/ezlibs-scripts.git",
+        "UpdateSourceTarget": "server/scripts",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Add ezassets",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GitRepo",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceData": "https://github.com/Keristero/ezlibs-scripts.git",
+        "UpdateSourceTarget": "server/assets",
+        "SkipOnFailure": true
     }
 ]
