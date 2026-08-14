@@ -25,3 +25,5 @@ Now when deploying an instance there should be an options for ClassyInfant - ONB
 # NOTICE
 
 Due to how git-clone and AMP operate I was not able to make this instance set the binary to be executable. You will have to set this yourself after the instance runs once and fails.
+
+Sometimes the download of ezlibs fails. If this happens the server is still functional and can be fixed manually
