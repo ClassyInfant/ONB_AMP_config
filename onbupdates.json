@@ -7,5 +7,12 @@
         "UpdateSourceArch": "x86_64",
         "UpdateSourceData": "https://github.com/ClassyInfant/ONB-_CL_Net.git",
         "UpdateSourceTarget": "server"
+    },
+    {
+        "UpdateStageName": "Make executable",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceArgs": "chmod -x /server/net_battle_server"
     }
 ]
