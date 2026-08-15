@@ -5,7 +5,7 @@ Meta.AarchSupport=NotSupported
 Meta.Arch=x86_64
 Meta.Author=ClassyInfant - Made with AMP Config Generator
 Meta.URL=https://onb.frameskip.net
-Meta.DisplayImageSource=url:https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffs-prod-cdn.nintendo-europe.com%2Fmedia%2Fimages%2F10_share_images%2Fgames_15%2Fvirtual_console_wii_u_7%2FSI_WiiUVC_MegamanBattleNetwork_image1600w.jpg&f=1&nofb=1&ipt=76e433e6febad96c9324c5ffa94f42585384bb7c5f4071046286be886701648c
+Meta.DisplayImageSource=url:https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.discordapp.com%2Fdiscovery-splashes%2F455429604455219211%2F62d01bb4938eda23b0a55e7479ffb407.jpg%3Fsize%3D2048%26format%3Dauto&f=1&nofb=1&ipt=42f48573a682f18e733aecbf74ac2b2dad1088840e75da8fa8ec4c893735172e
 Meta.EndpointURIFormat=
 Meta.ConfigManifest=onbconfig.json
 Meta.MetaConfigManifest=onbmetaconfig.json
