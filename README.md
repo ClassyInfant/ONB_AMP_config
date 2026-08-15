@@ -2,7 +2,7 @@
 
 Installs a generic ONB Linux server
 
-Separately downloads ezlib by Keristero a VERY useful tool for ONB creation
+Separately downloads ezlib by Keristero a VERY useful library for ONB creation
 
 https://github.com/Keristero/ezlibs-scripts
 
