@@ -1,8 +1,8 @@
 # AMP Instance config for ONB [OpenNetBattle](https://github.com/TheMaverickProgrammer/OpenNetBattle).
 
-Installs a generic ONB Linux server that runs over p:3000
+Installs a generic ONB Linux server
 
-Separately downloads ezlib by Keristero and setups up folders
+Separately downloads ezlib by Keristero a VERY useful tool for ONB creation
 
 https://github.com/Keristero/ezlibs-scripts
 
@@ -18,12 +18,13 @@ Add: "ClassyInfant/ONB_AMP_config:main"
 
 Fetch Latest
 
-
 Now when deploying an instance there should be an options for ClassyInfant - ONB
 
 
-# NOTICE
+# Notice
 
-Due to how git-clone and AMP operate I was not able to make this instance set the binary to be executable. You will have to set this yourself after the instance runs once and fails.
+I mainly threw this together just so I could host my own server where I already host the rest of my games servers. Any issues are unlikely to be resolved unless I am directly affected (sorry). AMP requires you to make a setup config for hosting so I figured it might as well work with little fuss.
 
-Sometimes the download of ezlibs fails. If this happens the server is still functional and can be fixed manually
+If you fork this repo and want it to have a different default server setup edit the onbupdates.json file this controls the git-clones from my generic server repo and Keristero's ezlib repo
+
+
