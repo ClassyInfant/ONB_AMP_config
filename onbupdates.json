@@ -13,7 +13,7 @@
         "UpdateSource": "GitRepo",
         "UpdateSourceArch": "x86_64",
         "UpdateSourceData": "https://github.com/Keristero/ezlibs-scripts.git",
-        "UpdateSourceTarget": "server/ezlibs-scripts",
+        "UpdateSourceTarget": "ezlibs-scripts",
         "SkipOnFailure": true
     },
     {
@@ -22,7 +22,7 @@
         "UpdateSource": "GitRepo",
         "UpdateSourceArch": "x86_64",
         "UpdateSourceData": "https://github.com/Keristero/ezlibs-assets.git",
-        "UpdateSourceTarget": "server/ezlibs-assets",
+        "UpdateSourceTarget": "ezlibs-assets",
         "SkipOnFailure": true
     },
     {
@@ -31,7 +31,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceArgs": "mv ./serverfiles/ezlibs-scripts ./serverfiles/server/scripts",
+        "UpdateSourceArgs": "mv serverfiles/ezlibs-scripts serverfiles/server/scripts/ezlibs-scripts",
         "SkipOnFailure": true
     },
     {
@@ -40,7 +40,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceArgs": "mv ./serverfiles ez-libs-assets ./serverfiles/server/assets",
+        "UpdateSourceArgs": "mv serverfiles/ezlibs-assets serverfiles/server/assets/ezlibs-assets",
         "SkipOnFailure": true
     },
     {
