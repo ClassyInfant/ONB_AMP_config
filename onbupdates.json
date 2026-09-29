@@ -8,42 +8,6 @@
         "UpdateSourceTarget": "server"
     },
     {
-        "UpdateStageName": "Add ezscripts",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "GitRepo",
-        "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "https://github.com/Keristero/ezlibs-scripts.git",
-        "UpdateSourceTarget": "ezlibs-scripts",
-        "SkipOnFailure": true
-    },
-    {
-        "UpdateStageName": "Add ezassets",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "GitRepo",
-        "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "https://github.com/Keristero/ezlibs-assets.git",
-        "UpdateSourceTarget": "ezlibs-assets",
-        "SkipOnFailure": true
-    },
-    {
-        "UpdateStageName": "Move ezscripts",
-        "UpdateStageDescription": "Moves downloaded ezlibs-scripts ",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Bash",
-        "UpdateSourceArch": "x86_64",
-        "UpdateSourceArgs": "mv serverfiles/ezlibs-scripts serverfiles/server/scripts/ezlibs-scripts",
-        "SkipOnFailure": true
-    },
-    {
-        "UpdateStageName": "Move ezassets",
-        "UpdateStageDescription": "Moves ezassets",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Bash",
-        "UpdateSourceArch": "x86_64",
-        "UpdateSourceArgs": "mv serverfiles/ezlibs-assets serverfiles/server/assets/ezlibs-assets",
-        "SkipOnFailure": true
-    },
-    {
         "UpdateStageName": "Attempt to chmod +x",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
