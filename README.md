@@ -1,24 +1,6 @@
 # AMP Instance config for ONB [OpenNetBattle](https://github.com/TheMaverickProgrammer/OpenNetBattle).
 
-Installs a generic ONB Linux server
-
-Separately downloads ezlib by Keristero a VERY useful library for ONB creation
-
-https://github.com/Keristero/ezlibs-scripts
-
-# Installation
-
-Log into your AMP Web management 
-
-Configuration > Instance Deployment > Instance Management > Configuration Repositories
-
-Edit
-
-Add: "ClassyInfant/ONB_AMP_config:main"
-
-Fetch Latest
-
-Now when deploying an instance there should be an options for ClassyInfant - ONB
+Installs CLNet Server
 
 
 # Notice
